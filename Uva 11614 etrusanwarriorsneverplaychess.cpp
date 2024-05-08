@@ -6,7 +6,7 @@ int main() {
     int n;
     cin >> n; 
     while (n--) {
-        int m;
+        long long m;
         cin >> m;
         int result = (-1 + sqrt(1 + 8 * m)) / 2;
         cout << result << endl; 
