@@ -55,7 +55,7 @@ string multiplyinteger(string a, string b) {
             result[i + j + 1] = product % 10 + '0';
             carry = product / 10;
         }
-        result[i] += carry; // Add carry to the current digit
+        result[i] += carry; // Add carry to the current digit ( i + j + 1 - 1 ) and since j = 0, it's just i.
     }
 
     // Remove leading zeros
